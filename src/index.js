@@ -61,7 +61,6 @@ then adds it to the existing links list and finally returns the new link.
       let targetIndex = links.findIndex((x) => x.id == args.id);
       links[targetIndex].url = ""
       links[targetIndex].description = ""
-      console.log(links[targetIndex])
       return links[targetIndex]
     }
   },
