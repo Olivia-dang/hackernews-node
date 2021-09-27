@@ -7,6 +7,7 @@ const User = require("./resolvers/User");
 const Link = require("./resolvers/Link");
 const Subscription = require("./resolvers/Subscription");
 const { PubSub } = require("apollo-server");
+const Vote = require("./resolvers/Vote");
 
 const resolvers = {
   Query,
@@ -14,6 +15,7 @@ const resolvers = {
   Subscription,
   User,
   Link,
+  Vote,
 };
 
 const fs = require("fs");
